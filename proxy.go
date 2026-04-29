@@ -3,8 +3,8 @@ package connectip
 import (
 	"net/http"
 
-	"github.com/quic-go/quic-go/http3"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/sagernet/quic-go/http3"
+	"github.com/sagernet/quic-go/quicvarint"
 )
 
 var contextIDZero = quicvarint.Append([]byte{}, 0)

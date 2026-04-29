@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/sagernet/quic-go"
+	"github.com/sagernet/quic-go/quicvarint"
 	"github.com/yosida95/uritemplate/v3"
 )
 
